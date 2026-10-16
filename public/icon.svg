@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="sgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#e2e8f0" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Shield -->
+  <rect width="512" height="512" rx="112" fill="#090d16" />
+  <rect x="24" y="24" width="464" height="464" rx="96" stroke="#1e293b" stroke-width="4" fill="none" />
+  
+  <!-- Outer Air Quality Ring -->
+  <circle cx="256" cy="256" r="180" stroke="url(#sgGradient)" stroke-width="20" stroke-linecap="round" stroke-dasharray="800 200" opacity="0.9" />
+  
+  <!-- Center Breeze Leaf Symbol -->
+  <path d="M256 120 C340 120, 392 180, 392 256 C392 340, 320 392, 256 392 C192 392, 120 340, 120 256 C120 180, 180 120, 256 120 Z" fill="#0f172a" stroke="#334155" stroke-width="4" />
+  
+  <path d="M190 280 C210 210, 290 190, 340 180 C320 250, 260 330, 190 280 Z" fill="url(#sgGradient)" />
+  <path d="M220 270 C250 250, 280 230, 330 190" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+  
+  <!-- Pulsing clean breeze waves -->
+  <path d="M160 330 Q210 310, 260 330 T360 330" stroke="#38bdf8" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.8" />
+  <path d="M180 365 Q230 350, 280 365 T340 365" stroke="#34d399" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.6" />
+</svg>

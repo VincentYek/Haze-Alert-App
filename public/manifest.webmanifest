@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "BreatheSG - Singapore PSI & Air Quality Alerts",
+  "short_name": "BreatheSG",
+  "description": "Live Singapore PSI tracker & instant push alerts when air quality reaches unhealthy levels.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#090d16",
+  "theme_color": "#090d16",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
